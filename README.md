@@ -14,25 +14,25 @@
 `-v, --verbose`
 `-h, --human-readable`
 `    --progress`
-`-P`                     # same as --partial --progress
+`-P`                     -- same as --partial --progress
 
 # Backup options
 
-`-b, --backup`           # backup with suffix
-    `--suffix=SUFFIX`    # default ~ without --backup-dir
+`-b, --backup`           -- backup with suffix
+    `--suffix=SUFFIX`    -- default ~ without --backup-dir
     `--backup-dir=DIR`
     
 # Archive options
 
-`-a, --archive`    # archive (-rlptgoD)
+`-a, --archive`    -- archive (-rlptgoD)
 
 `-r, --recursive`
-`-l, --links`      # copy symlinks as links
-`-p, --perms`     # preserve permissions
-`-t, --times`      # preserve times
-`-g, --group`      # preserve group
-`-o, --owner`      # preserve owner
-`-D`               # --devices --specials
+`-l, --links`      -- copy symlinks as links
+`-p, --perms`      -- preserve permissions
+`-t, --times`      -- preserve times
+`-g, --group`      -- preserve group
+`-o, --owner`      -- preserve owner
+`-D`               -- --devices --specials
 
 `--delete`         # Delete extra files
 
