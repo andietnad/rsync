@@ -3,7 +3,8 @@
 # Basic example
 
 # syncing folder src into dest:
-rsync -avz ./src /dest
+`rsync -avz ./src /dest`
+
 # syncing the content of src into dest:
 rsync -avz ./src/ /dest
 
